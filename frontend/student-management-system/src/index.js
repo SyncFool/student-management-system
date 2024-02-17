@@ -12,6 +12,8 @@ import Login from './componets/Login';
 import Dashboard from './componets/Dashboard';
 import TeacherDashboard from './componets/TeacherDashboard';
 import StudentDashboard from './componets/studentDashboard';
+import TeacherDetails from './componets/teacherDetails';
+import Students from './componets/Students';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,8 +25,8 @@ root.render(
     <Route exact path='/teacher-dashboard' element={<TeacherDashboard/>}></Route>
     <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>
     <Route exact path='/student-dashboard' element={<StudentDashboard/>}></Route>
-    <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>
-    <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>
+    <Route exact path='/teacher-details' element={<TeacherDetails/>}></Route>
+    <Route exact path='/students' element={<Students/>}></Route>
     <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>
     <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>
     <Route exact path='/add-teacher' element={<TeacherAdd/>}></Route>

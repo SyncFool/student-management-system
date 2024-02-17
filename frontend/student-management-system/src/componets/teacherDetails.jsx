@@ -1,3 +1,7 @@
+import React, { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Sidebar from "./Sidebar";
 export default teacherDetails;
 function teacherDetails(){
     return (<body>
@@ -16,7 +20,8 @@ function teacherDetails(){
         <div className="main-wrapper">
         
         
-        
+        <Header/>
+        <Sidebar/>
         <div className="page-wrapper">
         <div className="content container-fluid">
         <div className="card">

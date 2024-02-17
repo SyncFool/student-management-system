@@ -1,28 +1,29 @@
 const express = require("express");
 const router = express.Route();
-const userData = require("../models/userDataModel");
+const userData = require("../models/teacherModel");
+const cors= require("cors");
+app.use(cors())
 
 //create
-router.post("/", async (req, res) => {
+router.post("/addTeacher", async (req, res) => {
   console.log(req.body);
   const {
-    TeacherId,
-    Name,
-    Gender,
-    DateOfBirth,
-    Mobile,
-    JoiningDate,
-    Qualification,
-    Experience,
-    Username,
-    EmailId,
-    Password,
-    RepeatPassword,
-    Address,
-    City,
-    State,
-    ZipCode,
-    Country
+    teacherId,
+    name,
+    gender,
+    dob,
+    mobileNo,
+    joiningDate,
+    qualifications,
+    experience,
+    username,
+    emailId,
+    password,
+    address,
+    city,
+    state,
+    zipcode,
+    country
   } = req.body;
   try {
     const userAdded = await userData.create({

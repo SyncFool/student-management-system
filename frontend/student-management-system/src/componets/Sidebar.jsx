@@ -11,7 +11,7 @@ function Sidebar(){
             <span>Main Menu</span>
           </li>
           <li className="submenu active">
-            <a href=""
+            <a 
               ><i className="feather-grid"></i> <span> Dashboard</span>
               <span className="menu-arrow"></span
             ></a>
@@ -51,7 +51,7 @@ function Sidebar(){
               <li><Link to="/edit-teacher">Teacher Edit</Link></li>
             </ul>
           </li>
-          <li className="submenu">
+          <li className="submenu"> 
             <a href=""
               ><i className="fas fa-building"></i> <span> Departments</span>
               <span className="menu-arrow"></span

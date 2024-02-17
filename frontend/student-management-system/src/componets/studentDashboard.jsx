@@ -383,23 +383,5 @@ function studentDashboard(){
         
         </div>
         
-        
-        <script src="assets/js/jquery-3.7.1.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/js/bootstrap.bundle.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/js/feather.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/plugins/apexchart/apexcharts.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        <script src="assets/plugins/apexchart/chart-data.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/plugins/simple-calendar/jquery.simple-calendar.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        <script src="assets/js/calander.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/js/circle-progress.min.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        
-        <script src="assets/js/script.js" type="260d346a20621a1a6b7d71ed-text/javascript"></script>
-        <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="260d346a20621a1a6b7d71ed-|49" defer></script></body>)
+</body>)
 }
