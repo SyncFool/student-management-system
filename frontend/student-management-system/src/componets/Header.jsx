@@ -1,20 +1,21 @@
+import {Link} from 'react-router-dom';
 export default Header;
 
 function Header(){
     return (
 <div className="header">
     <div className="header-left">
-      <a href="index.html" className="logo">
+      <Link to="/dashboard" className="logo">
         <img src="assets/img/logo.png" alt="Logo" />
-      </a>
-      <a href="index.html" className="logo logo-small">
+      </Link>
+      <Link to="/dasboard" className="logo logo-small" >
         <img
           src="assets/img/logo-small.jpg"
           alt="Logo"
           width="30"
           height="30"
         />
-      </a>
+      </Link>
     </div>
 
     <div className="menu-toggle">
