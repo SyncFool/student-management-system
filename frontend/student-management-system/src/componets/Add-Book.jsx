@@ -144,41 +144,6 @@ function AddBook() {
           </div>
         </div>
       </div>
-
-      <script
-        src="assets/js/jquery-3.7.1.min.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-
-      <script
-        src="assets/js/bootstrap.bundle.min.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-
-      <script
-        src="assets/js/feather.min.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-
-      <script
-        src="assets/plugins/slimscroll/jquery.slimscroll.min.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-
-      <script
-        src="assets/plugins/select2/js/select2.min.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-
-      <script
-        src="assets/js/script.js"
-        type="0ec4cb447b787fbd6ea2859e-text/javascript"
-      ></script>
-      <script
-        src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js"
-        data-cf-settings="0ec4cb447b787fbd6ea2859e-|49"
-        defer
-      ></script>
     </body>
   );
 }
