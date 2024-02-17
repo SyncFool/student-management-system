@@ -9,7 +9,7 @@ function Header(){
       </a>
       <a href="index.html" className="logo logo-small">
         <img
-          src="assets/img/logo-small.png"
+          src="assets/img/logo-small.jpg"
           alt="Logo"
           width="30"
           height="30"
@@ -37,31 +37,6 @@ function Header(){
     </a>
 
     <ul className="nav user-menu">
-      <li className="nav-item dropdown noti-dropdown language-drop me-2">
-        <a
-          href="#"
-          className="dropdown-toggle nav-link header-nav-list"
-          data-bs-toggle="dropdown"
-        >
-          <img src="assets/img/icons/header-icon-01.svg" alt />
-        </a>
-        <div className="dropdown-menu">
-          <div className="noti-content">
-            <div>
-              <a className="dropdown-item" href="javascript:;"
-                ><i className="flag flag-lr me-2"></i>English</a
-              >
-              <a className="dropdown-item" href="javascript:;"
-                ><i className="flag flag-bl me-2"></i>Francais</a
-              >
-              <a className="dropdown-item" href="javascript:;"
-                ><i className="flag flag-cn me-2"></i>Turkce</a
-              >
-            </div>
-          </div>
-        </div>
-      </li>
-
       <li className="nav-item dropdown noti-dropdown me-2">
         <a
           href="#"
@@ -196,10 +171,10 @@ function Header(){
               className="rounded-circle"
               src="assets/img/profiles/avatar-01.jpg"
               width="31"
-              alt="Ryan Taylor"
+              alt="Vivek Singh"
             />
             <div className="user-text">
-              <h6>Ryan Taylor</h6>
+              <h6>Vivek Singh</h6>
               <p className="text-muted mb-0">Administrator</p>
             </div>
           </div>
@@ -214,7 +189,7 @@ function Header(){
               />
             </div>
             <div className="user-text">
-              <h6>Ryan Taylor</h6>
+              <h6>Vivek Singh</h6>
               <p className="text-muted mb-0">Administrator</p>
             </div>
           </div>

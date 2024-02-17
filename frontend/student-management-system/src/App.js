@@ -205,7 +205,7 @@ function App() {
                                 width="25"
                                 alt="Star Students"
                               />
-                              John Smith
+                              Lakshita Beniwal
                             </a>
                           </td>
                           <td className="text-center">1185</td>
@@ -226,7 +226,7 @@ function App() {
                                 width="25"
                                 alt="Star Students"
                               />
-                              Jolie Hoskins
+                              Vivek Singh
                             </a>
                           </td>
                           <td className="text-center">1195</td>
@@ -247,7 +247,7 @@ function App() {
                                 width="25"
                                 alt="Star Students"
                               />
-                              Pennington Joy
+                              Sprite Sisodia
                             </a>
                           </td>
                           <td className="text-center">1196</td>
@@ -268,34 +268,13 @@ function App() {
                                 width="25"
                                 alt="Star Students"
                               />
-                              Millie Marsden
+                              Radhika Rani
                             </a>
                           </td>
                           <td className="text-center">1187</td>
                           <td className="text-center">98.2%</td>
                           <td className="text-end">
                             <div>2016</div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td className="text-nowrap">
-                            <div>PRE2209</div>
-                          </td>
-                          <td className="text-nowrap">
-                            <a href="profile.html">
-                              <img
-                                className="rounded-circle"
-                                src="assets/img/profiles/avatar-05.jpg"
-                                width="25"
-                                alt="Star Students"
-                              />
-                              John Smith
-                            </a>
-                          </td>
-                          <td className="text-center">1185</td>
-                          <td className="text-center">98%</td>
-                          <td className="text-end">
-                            <div>2015</div>
                           </td>
                         </tr>
                       </tbody>
