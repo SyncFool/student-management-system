@@ -162,22 +162,22 @@
 	
 	// Datetimepicker
 	
-	if($('.datetimepicker').length > 0 ){
-		$('.datetimepicker').datetimepicker({
-			format: 'DD-MM-YYYY',
-			icons: {
-				up: "fas fa-angle-up",
-				down: "fas fa-angle-down",
-				next: 'fas fa-angle-right',
-				previous: 'fas fa-angle-left'
-			}
-		});
-		$('.datetimepicker').on('dp.show',function() {
-			$(this).closest('.table-responsive').removeClass('table-responsive').addClass('temp');
-		}).on('dp.hide',function() {
-			$(this).closest('.temp').addClass('table-responsive').removeClass('temp')
-		});
-	}
+	// if($('.datetimepicker').length > 0 ){
+	// 	$('.datetimepicker').datetimepicker({
+	// 		format: 'DD-MM-YYYY',
+	// 		icons: {
+	// 			up: "fas fa-angle-up",
+	// 			down: "fas fa-angle-down",
+	// 			next: 'fas fa-angle-right',
+	// 			previous: 'fas fa-angle-left'
+	// 		}
+	// 	});
+	// 	$('.datetimepicker').on('dp.show',function() {
+	// 		$(this).closest('.table-responsive').removeClass('table-responsive').addClass('temp');
+	// 	}).on('dp.hide',function() {
+	// 		$(this).closest('.temp').addClass('table-responsive').removeClass('temp')
+	// 	});
+	// }
 
 	// Tooltip
 	

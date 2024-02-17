@@ -1,5 +1,10 @@
-export default teacherdashboard;
-function teacherdashboard(){
+import React, { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Sidebar from "./Sidebar";
+
+export default TeacherDashboard;
+function TeacherDashboard(){
     return (<body>
 <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
 
@@ -14,7 +19,8 @@ function teacherdashboard(){
 
 <link rel="stylesheet" href="assets/css/style.css"></link>
         <div className="main-wrapper">
-        
+        <Header/>
+        <Sidebar/>
         
         
         
@@ -366,23 +372,5 @@ function teacherdashboard(){
         
         </div>
         
-        
-        <script src="assets/js/jquery-3.7.1.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/bootstrap.bundle.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/feather.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/slimscroll/jquery.slimscroll.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/apexchart/apexcharts.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="assets/plugins/apexchart/chart-data.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/plugins/simple-calendar/jquery.simple-calendar.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="assets/js/calander.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/circle-progress.min.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        
-        <script src="assets/js/script.js" type="aa2fd6dd2fe60afe2c3dfad6-text/javascript"></script>
-        <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aa2fd6dd2fe60afe2c3dfad6-|49" defer></script></body>)
+       </body>)
 }

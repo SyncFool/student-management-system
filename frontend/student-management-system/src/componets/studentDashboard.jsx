@@ -1,10 +1,28 @@
+import React, { useState } from "react";
+import Header from "./Header";
+import Footer from "./Footer";
+import Sidebar from "./Sidebar";
+
 export default studentDashboard;
 function studentDashboard(){
     return(<body>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+
+<link rel="stylesheet" href="assets/plugins/feather/feather.css"/>
+
+<link rel="stylesheet" href="assets/plugins/icons/flags/flags.css"/>
+
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css"/>
+<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css"/>
+
+<link rel="stylesheet" href="assets/plugins/simple-calendar/simple-calendar.css"/>
+
+<link rel="stylesheet" href="assets/css/style.css"></link>
 
         <div class="main-wrapper">
         
-  
+  <Header/>
+  <Sidebar/>
         
         <div class="page-wrapper">
         <div class="content container-fluid">
